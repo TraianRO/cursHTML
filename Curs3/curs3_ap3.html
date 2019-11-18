@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- document generat automat cu SHIFT/!/TAB -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document Curs 3 Aplicatia 3</title>
+  <br>
+  /* CSS external file style */
+  <link rel="stylesheet" href="style.css">
+
+  <br>
+  /* CSS embedded style */
+    <style>
+        h1 {
+         color: green; 
+        }
+
+        #hello {color:indianred}
+        .hai {color:lawngreen}
+    </style>
+</head>
+<body>
+
+<br>
+/* CSS inline style are prioritate in fata embedded si external */
+
+<h1 style="color:hotpink;">Hello Once</h1>
+
+<br>
+/* declaratiile ID au prioritate in fata declaratiilor Class */
+<h1 id="hello" class="hai">Hello Twice</h1>
+
+<br>
+/* declaratiile internal au prioritate in fata celor external */
+<h1>Hello Third time</h1>
+
+<br>
+/* bunele practici pentru o incarcare de viteza / rapida: CSS in head si JS in footer */
+</body>
+</html>

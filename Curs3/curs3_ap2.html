@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- document generat automat cu SHIFT/!/TAB -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document Curs 3 Aplicatia 2</title>
+  /*<br><strong>w3schools.com/cssref/pr_import_rule.asp</strong><br>*/
+  <br>
+/* prioritatile (cel mai aproape de continut): */
+<br>
+/* <br>
+1 - inline, <br>
+2 - embedded (intern), <br>
+3 - external file<br>
+4 - browser (defaults)
+*/
+<br><br>
+/* stilul nostru, scris manual, sa fie ultimul, dupa incarcarea fisierelor CSS externe */
+<br>
+/* ex.: incarcam bootstrap si apoi trecem stilul nostru de scriere, aliniere si culoare */
+<br><br><br>
+  /* CSS embedded style */
+  <style>
+  p {
+    font: 1em sans-serif;
+    font-size: 28px;
+  }
+  #p1{
+    color: greenyellow !important;
+  }
+  #p2 {
+    color: aquamarine;
+  }
+  .paragraf {
+    color: hotpink;
+  }
+  </style>
+  <br>
+  /* CSS external file style */
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<br>
+/* CSS inline style - bun pentru newsletters*/
+
+<p id = "p1" style="color: blueviolet !important;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus sint quod saepe voluptate 
+  voluptatibus vitae aut quidem asperiores, iste accusantium laboriosam, cupiditate fugit. 
+  Ea repellendus expedita doloremque dolorum ratione?</p>
+
+<p style="text-align: justify">&nbsp</p>;
+<span>
+<br>
+/* ID si Class sunt selectori */
+<br>
+/* ID are prioritate in fata selectorului Class */
+<p id="p2" class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt officiis ut porro inventore? Nesciunt 
+  <a href="https://www.google.com">orice link</a>"
+  dolore repellendus quia enim distinctio tempore praesentium? 
+  <code>
+    alabala portocala
+  </code>
+  Laudantium minima vero maxime eaque aliquid ut veritatis aliquam.</p>
+</span>
+<br>
+/* ID si Class au prioritate fata de fisierul extern */
+<p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui numquam nobis alias, odio sed eveniet quam deleniti repellendus ex. Velit maiores labore quas eaque inventore, dicta vitae soluta nam quo?</p>
+<br>
+/* bunele practici pentru o incarcare de viteza / rapida: CSS in head si JS in footer */
+/* <br>CSS PROPRIETATI <br>*/
+/* width 100% <br>*/
+/* max-width 500px; <br>*/
+/* height, min-width, min-height mai rar <br>*/
+/* overfloat ca proprietate importanta ! <br>*/
+<br>
+/* FireBug - cel mai bun validator introdus deja in browser in Mozilla */<br>
+/* Validator CSS3 : http://jigsaw.w3.org/css-validator/ */ 
+<jigsaw class="w3 org">
+<css-validator>
+
+</css-validator>
+</body>
+</html>
