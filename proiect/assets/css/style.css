@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.activ {
+    color: blue;
+    font-weight: inherit;
+}
