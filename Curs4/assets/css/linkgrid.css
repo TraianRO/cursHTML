@@ -10,7 +10,7 @@ Author: Adrian Adiaconitei
 
 .linkgrid .row:before,.row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
 .linkgrid .row:after{clear: both; }
-.linkgrid .row{zoom: 1;}
+.linkgrid .row{zoom: 1; text-align: center;}
 
 .linkgrid .container-col{margin:10px;}
 
