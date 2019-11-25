@@ -12,6 +12,8 @@ Author: Adrian Adiaconitei
 .linkgrid .row:after{clear: both; }
 .linkgrid .row{zoom: 1; text-align: center;}
 
+#tab {margin-left: 10px; margin-right: 10px; margin-inline-end: 10px;}
+
 .linkgrid .container-col{margin:10px;}
 
 .linkgrid .col-1-2, .linkgrid .col-1-3, .linkgrid .col-2-3,
